@@ -235,7 +235,7 @@ button {
   width: 80%;
   margin: auto;
   margin-top: 10px;
-  padding-right: 20px;
+  padding-right: 0;
   display: none;
 }
 .sidenav .sideMenue li {
@@ -258,6 +258,37 @@ button {
   right: 0;
   top: calc(100% - 17px);
   color: #25a1a5;
+}
+.sidenav .social {
+  text-align: center;
+  line-height: 33px;
+}
+.sidenav .social a {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.sidenav .social a i {
+  color: #002060;
+}
+.sidenav .lang {
+  margin-top: 30px;
+}
+.sidenav .lang .spanLabel {
+  font-size: 14px;
+  font-weight: 200;
+}
+.sidenav .lang .nice-select {
+  float: none;
+  display: inline-block;
+  border: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  font-weight: bold;
+  color: #002060;
+  font-size: 14px;
+  height: 33px;
+  line-height: 33px;
 }
 
 .openMenuActive {
@@ -940,6 +971,13 @@ button {
   }
 }
 @media (max-width: 991px) {
+  .topheader {
+    display: none;
+  }
+  .topheader .social {
+    display: none;
+  }
+
   .mynavbar {
     padding-bottom: 20px;
   }

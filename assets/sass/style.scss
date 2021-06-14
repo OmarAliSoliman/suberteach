@@ -254,7 +254,7 @@ button {
     width: 80%;
     margin: auto;
     margin-top: 10px;
-    padding-right: 20px;
+    padding-right: 0;
     display: none;
     li {
       padding-right: 20px;
@@ -278,6 +278,38 @@ button {
           color: #25a1a5;
         }
       }
+    }
+  }
+  .social {
+    text-align: center;
+    line-height: 33px;
+    a {
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+      i {
+        color: #002060;
+      }
+    }
+  }
+  .lang {
+    margin-top: 30px;
+    .spanLabel {
+      font-size: 14px;
+      font-weight: 200;
+    }
+    .nice-select {
+      float: none;
+      display: inline-block;
+      border: 0;
+      // padding: 0;
+      padding-left: 0;
+      padding-bottom: 0;
+      font-weight: bold;
+      color: #002060;
+      font-size: 14px;
+      height: 33px;
+      line-height: 33px;
     }
   }
 }
@@ -1019,6 +1051,12 @@ button {
 }
 
 @media (max-width: 991px) {
+  .topheader{
+    display: none;
+    .social{
+      display: none;
+    }
+  }
   .mynavbar {
     padding-bottom: 20px;
   }
