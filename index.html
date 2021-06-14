@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap-en.min.css">
+  <link rel="stylesheet" href="./assets/css/slick.css">
+  <link rel="stylesheet" href="./assets/css/slick-theme.css">
+  <link rel="stylesheet" href="./assets/css/nice-select.css">
+  <link rel="stylesheet" href="./assets/css/animate.css">
+  <link rel="stylesheet" href="./assets/css/uicons-regular-rounded.css">
+  <link rel="stylesheet" href="./assets/css/aos.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="bg-sidenavOpen"></div>
+
+  <div class="splash">
+    <div>
+      <img src="./assets/images/logo.png" alt="" />
+      <div class="loadProgress">
+        <span class="lineStyle"></span>
+      </div>
+    </div>
+  </div>
+
+  <div id="mySidenav" class="sidenav">
+    <img class="logo" src="./assets/images/logo.png" alt="">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+      <i class="fas fa-times"></i>
+    </a>
+    <ul class="side-nav-links list-unstyled">
+      <li class="navItem"><a class="navLink" href="">Hakkımızda</a></li>
+      <li class="NesteListParent navItem">
+        <a class="navLink">Ürünler ve Hizmetler</a>
+        <i class="fi-rr-angle-left"></i>
+        <ul class="sideMenue list-unstyled">
+          <li><a href="">Ürünler ve Hizmetler</a></li>
+          <li><a href="">Ürünler ve Hizmetler</a></li>
+          <li><a href="">Ürünler ve Hizmetler</a></li>
+        </ul>
+      </li>
+      <li class="navItem"><a class="navLink" href="">İletişim</a></li>
+      <li class="navItem"><a class="navLink" href="">
+          <i class="fas fa-arrow-left"></i>
+          Ücretsiz Deneyin
+        </a></li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <div class="topheader">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="lang">
+            <span class="spanLabel">language</span>
+            <select name="" id="" class="langSelect">
+              <option value="">EN</option>
+              <option value="">AR</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="social">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mynavbar">
+    <div class="container">
+      <a href="" class="logo" data-aos="fade-up">
+        <img src="./assets/images/logo.png" alt="">
+      </a>
+      <ul class="nav-list list-unstyled" data-aos="fade-up">
+        <li class="navItem"><a class="navLink" href="">Hakkımızda</a></li>
+        <li class="navItem NesteListParent"><a class="navLink" href="">
+            Ürünler ve Hizmetler
+            <ul class="sideMenue list-unstyled">
+              <li><a href="">Ürünler ve Hizmetler</a></li>
+              <li><a href="">Ürünler ve Hizmetler</a></li>
+              <li><a href="">Ürünler ve Hizmetler</a></li>
+            </ul>
+          </a></li>
+        <li class="navItem"><a class="navLink" href="">İletişim</a></li>
+        <li class="navItem"><a class="navLink" href="">
+            Ücretsiz Deneyin
+            <i class="fas fa-arrow-right"></i>
+          </a></li>
+      </ul>
+      <a class="openSideMenue" onclick="openNav()">
+        <i class="fi-rr-align-right"></i>
+      </a>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div class="header-slider-parent">
+    <div class="header-slider">
+      <div class="slider-item">
+        <div class="container">
+          <div class="header-content">
+            <h5 data-animation="animate__animated animate__swing">Anlaşmalı kargo fiyatları</h5>
+            <p data-animation="animate__animated animate__bounceIn">IdeaSoft müşterilerine özel, anlaşmalı kargo
+              firmaları ile kargo maliyetinizi düşürün!</p>
+            <a href="" class="read-more">Paketleri Incele</a>
+          </div>
+          <div class="header-img">
+            <img src="./assets/images/header-img.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="slider-item">
+        <div class="container">
+          <div class="header-content">
+            <h5 data-animation="animate__animate animate__swing">Anlaşmalı kargo fiyatları</h5>
+            <p data-animation="animate__animate animate__fadeInDown">IdeaSoft müşterilerine özel, anlaşmalı kargo
+              firmaları ile kargo maliyetinizi düşürün!</p>
+            <a href="" class="read-more">Paketleri Incele</a>
+          </div>
+          <div class="header-img">
+            <img src="./assets/images/header-img.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="slider-item">
+        <div class="container">
+          <div class="header-content">
+            <h5 data-animation="animate__animate animate__bounceInDown">Anlaşmalı kargo fiyatları</h5>
+            <p data-animation="animate__animate animate__bounceIn">IdeaSoft müşterilerine özel, anlaşmalı kargo
+              firmaları ile kargo maliyetinizi düşürün!</p>
+            <a href="" class="read-more">Paketleri Incele</a>
+          </div>
+          <div class="header-img">
+            <img src="./assets/images/header-img.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="intern">
+    <div class="container">
+      <div class="section-header">
+        <h5><span>E-ticaret sitenizi açın,</span> internetten satışa
+          başlayın</h5>
+        <p>IdeaSoft ile e-ticaret sitesi kurun, internetten satış için en
+          doğru adımı atın.</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="intern-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">
+            <div class="card-icon">
+              <img src="./assets/images/laptop.png" alt="">
+            </div>
+            <a href="" class="card-title">E-ticaret sitenizi açın</a>
+            <p class="card-text">Supertech’un gelişmiş özellikleri ile ürünlerinizi kolayca sitenizde satışa hazır hale
+              getirin.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="intern-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="card-icon">
+              <img src="./assets/images/user.png" alt="">
+            </div>
+            <a href="" class="card-title">Yeni müşteriler kazanın</a>
+            <p class="card-text">Sadece kendi mağazanız ile sınırlı kalmayın, e-ticaret ile milyonlarca müşteriye
+              kapılarınızı açın.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="intern-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+            <div class="card-icon">
+              <img src="./assets/images/profit.png" alt="">
+            </div>
+            <a href="" class="card-title">İşinizi büyütün</a>
+            <p class="card-text">Sürekli büyüyen e-ticaret pazarında siz de yerinizi alın. Satışlarınızı artırarak
+              cironuzu katlayın.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="number">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="number-content">
+            <p data-aos="zoom-in" data-aos-duration="1000">2021 yılında şu ana kadar internetten kaç ürün satıldı?</p>
+            <h5 data-aos="fade-up" data-aos-duration="1000">Türkiye anlık e-ticaret satış verileri</h5>
+            <h6 class="thenumber" data-aos="fade-up" data-aos-duration="1000"><span
+                class="dollar">$</span><span>+</span><span class="counter">21.7</span><span>B</span></h6>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="number-img" data-aos="fade-down" data-aos-duration="1000">
+            <img src="./assets/images/number-img.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="joinUs">
+    <div class="container">
+      <div class="section-header">
+        <h5 data-aos="zoom-in" data-aos-duration="1000"> <span>12.000+ e-ticaret sitesi </span> yanılıyor olamaz</h5>
+        <p data-aos="fade-up" data-aos-duration="1000">Supertech altyapısını ücretsiz deneyin, e-ticarete ilk adımı atın.</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="join-img" data-aos="fade-up" data-aos-duration="1000">
+            <img src="./assets/images/join-img.png" alt="">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="join-form" data-aos="fade-up" data-aos-duration="1000">
+            <form action="">
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                  <div class="form-group">
+                    <input type="text" name="" id="" class="form-control" placeholder="Adınız">
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                  <div class="form-group">
+                    <input type="text" name="" id="" class="form-control" placeholder="Soyadınız">
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                  <div class="form-group">
+                    <input type="email" name="" id="" class="form-control" placeholder="E-mail Adresiniz">
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                  <div class="form-group">
+                    <input type="text" name="" id="" class="form-control" placeholder="İş Telefonunuz">
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                  <div class="form-group">
+                    <input type="text" name="" id="" class="form-control" placeholder="Firma / Kurum Adınız">
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                  <div class="form-group">
+                    <select name="" id="" class="form-control joinSelect">
+                      <option value="">Görüşme için toplantı talep etmek ister misiniz?</option>
+                      <option value="">Görüşme için toplantı talep etmek ister misiniz?</option>
+                      <option value="">Görüşme için toplantı talep etmek ister misiniz?</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="btn-submit">
+                <button type="submit">
+                  <span>Simdi Ücretsiz Deneyin</span>
+                  <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="features">
+    <div class="container">
+      <div class="section-header">
+        <h5 data-aos="zoom-in" data-aos-duration="1000"> <span>E-ticarete başlamak için </span> ihtiyacınız olan her şey</h5>
+        <p data-aos="fade-up" data-aos-duration="1000">
+          E-ticaret süreçlerinizde ihtiyacınız olan tüm özellikleri e-ticaret paketlerimizde bulabilirsiniz.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="features-card">
+            <div class="row">
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="feat-card" data-aos="flip-up" data-aos-duration="2000">
+                  <div class="card-img">
+                    <img src="./assets/images/shopping-basket.png" alt="">
+                  </div>
+                  <h5 class="card-title">Anahtar teslim
+                    e-ticaret sitesi
+                  </h5>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="feat-card middle" data-aos="flip-up" data-aos-duration="1900">
+                  <div class="card-img">
+                    <img src="./assets/images/user (2).png" alt="">
+                  </div>
+                  <h5 class="card-title">7/24 teknik destek
+                    & e-ticaret eğitimleri
+                  </h5>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="feat-card" data-aos="flip-up" data-aos-duration="1800">
+                  <div class="card-img">
+                    <img src="./assets/images/timer.png" alt="">
+                  </div>
+                  <h5 class="card-title">Sürekli açık
+                    sanal mağaza
+                  </h5>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="feat-card" data-aos="flip-up" data-aos-duration="1700">
+                  <div class="card-img">
+                    <img src="./assets/images/mobile-store.png" alt="">
+                  </div>
+                  <h5 class="card-title">Mobil cihazlar ile
+                    tam uyumluluk
+                  </h5>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="feat-card middle" data-aos="flip-up" data-aos-duration="1600">
+                  <div class="card-img">
+                    <img src="./assets/images/bank.png" alt="">
+                  </div>
+                  <h5 class="card-title">Tüm banka ve
+                    ödeme sistemleri
+                  </h5>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="feat-card" data-aos="flip-up" data-aos-duration="1500">
+                  <div class="card-img">
+                    <img src="./assets/images/truck.png" alt="">
+                  </div>
+                  <h5 class="card-title">Özel anlaşmalı
+                    kargo fiyatları
+                  </h5>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="feat-card" data-aos="flip-up" data-aos-duration="1400">
+                  <div class="card-img">
+                    <img src="./assets/images/paint-brush.png" alt="">
+                  </div>
+                  <h5 class="card-title">Kullanıma hazır
+                    ücretsiz tasarımlar
+                  </h5>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="feat-card middle" data-aos="flip-up" data-aos-duration="1300">
+                  <div class="card-img">
+                    <img src="./assets/images/magnifying-glass.png" alt="">
+                  </div>
+                  <h5 class="card-title">%100 SEO
+                    uyumlu altyapı
+                  </h5>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="feat-card" data-aos="flip-up" data-aos-duration="1200">
+                  <div class="card-img">
+                    <img src="./assets/images/wireframe.png" alt="">
+                  </div>
+                  <h5 class="card-title">Tüm pazaryeri
+                    entegrasyonları
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="fatures-content">
+            <h5>Anahtar teslim
+              e-ticaret sitesi
+            </h5>
+            <p>Alan adı, hosting, e-mail, güvenlik, yedekleme, ödeme altyapıları ve tüm yazılım özellikleri e-ticaret
+              paketlerimizde size bir bütün olarak sunuyoruz. Size sadece ürünlerinizi eklemek ve satışa başlamak
+              kalıyor.
+            </p>
+            <div class="read-more">
+              <a href="">Tum Ozellikler</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="company-mate">
+    <div class="container">
+      <div class="section-header">
+        <h5 data-aos="zoom-in" data-aos-duration="1000"><span>İş ortaklarınız</span> gücünüze güç katacak</h5>
+        <p data-aos="fade-up" data-aos-duration="1000">Alanında lider çözüm ortaklarımız, artık sizin iş ortağınız.</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg">
+          <div class="mate-card" data-aos="fade-up" data-aos-duration="3000">
+            <img src="./assets/images/mate-5.png" alt="">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg">
+          <div class="mate-card" data-aos="fade-up" data-aos-duration="2500">
+            <img src="./assets/images/mate-4.png" alt="">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg">
+          <div class="mate-card" data-aos="fade-up" data-aos-duration="2000">
+            <img src="./assets/images/mate-3.png" alt="">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg">
+          <div class="mate-card" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./assets/images/mate-2.png" alt="">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg">
+          <div class="mate-card" data-aos="fade-up" data-aos-duration="1000">
+            <img src="./assets/images/mate-1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="site-footer">
+    <div class="container">
+      <a href="" class="footer-logo">
+        <img src="./assets/images/foter-logo.png" alt="">
+      </a>
+    </div>
+  </footer>
+
+
+  <div id="floating">
+    <i class="fi-rr-angle-up"></i>
+  </div>
+
+
+  <script src="./assets/js/jquery-3.3.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/aos.js"></script>
+  <script src="./assets/js/jquery-ui.min.js"></script>
+  <script src="./assets/js/slick.min.js"></script>
+  <script src="./assets/js/jquery.nice-select.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+  <script src="./assets/js/jquery.counterup.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
