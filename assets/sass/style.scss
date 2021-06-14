@@ -112,7 +112,7 @@ button {
   width: 180px;
   height: 100%;
 
-  background-color: $mainColor;
+  background-color: #25A1A5;
   -moz-animation: move-progress 3s linear infinite;
   -ms-animation: move-progress 3s linear infinite;
   -o-animation: move-progress 3s linear infinite;
@@ -973,6 +973,12 @@ button {
       padding-left: 9px;
     }
   }
+  .svgImage{
+    display: none;
+    text-align: center;
+    // display: block;
+    margin: auto;
+  }
 }
 .mate-card{
   background-color: #fff;
@@ -1181,6 +1187,12 @@ button {
         padding-right: 15px;
         padding-left: 15px;
       }
+    }
+    .pngImage{
+      display: none;
+    }
+    .svgImage{
+      display: block;
     }
   }
 }

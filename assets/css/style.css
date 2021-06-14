@@ -105,7 +105,7 @@ button {
   top: 0;
   width: 180px;
   height: 100%;
-  background-color: #0d1435;
+  background-color: #25A1A5;
   -moz-animation: move-progress 3s linear infinite;
   -ms-animation: move-progress 3s linear infinite;
   -o-animation: move-progress 3s linear infinite;
@@ -900,6 +900,11 @@ button {
   padding-right: 9px;
   padding-left: 9px;
 }
+.company-mate .svgImage {
+  display: none;
+  text-align: center;
+  margin: auto;
+}
 
 .mate-card {
   background-color: #fff;
@@ -1073,6 +1078,12 @@ button {
   .company-mate .row .col-lg {
     padding-right: 15px;
     padding-left: 15px;
+  }
+  .company-mate .pngImage {
+    display: none;
+  }
+  .company-mate .svgImage {
+    display: block;
   }
 }
 @media (max-width: 321px) {
