@@ -25,7 +25,7 @@ body {
 
 img {
   max-width: 100%;
-  width: 100%;
+  // width: 100%;
 }
 
 a,
@@ -483,6 +483,8 @@ button {
       padding-top: 15px;
       border-radius: 10px;
       @extend %transition;
+      z-index: 99999;
+
       box-shadow: 0 12px 30px rgb(80 143 244 / 10%);
       li {
         height: 60px;
@@ -661,7 +663,7 @@ button {
     box-shadow: 0 12px 15px rgba($color: #0f0094, $alpha: 14%);
     position: relative;
     img {
-      width: auto;
+      width: 60px;
       height: auto;
     }
     &::after {
@@ -1109,10 +1111,13 @@ button {
 @media (max-width: 960px) {
   .header-slider {
     .header-img {
-      display: none;
+      z-index: -1 !important;
+      opacity: .5;
     }
     .header-content {
       text-align: center;
+      position: relative;
+      z-index: 99;
       a.read-more {
         background-color: #002543;
         color: #fff;
@@ -1131,6 +1136,17 @@ button {
   }
   .header-slider-parent .header-slider .header-content{
     width: 100%
+  }
+  .header-slider-parent .header-slider .header-content h5{
+    font-weight: bold;
+  }
+  .header-slider-parent .header-slider .header-content p{
+    color: #000;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-weight: 600;
   }
 }
 
@@ -1163,24 +1179,7 @@ button {
       }
     }
   }
-  .header-slider {
-    .header-img {
-      display: none;
-    }
-    .header-content {
-      text-align: center;
-      a.read-more {
-        background-color: #002543;
-        color: #fff;
-        border: 1px solid #fff;
-        &:hover {
-          background-color: #fff;
-          color: #002543;
-          border: 1px solid #002543;
-        }
-      }
-    }
-  }
+
   .header-slider-parent .header-slider .slider-item {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -1232,6 +1231,9 @@ button {
     .svgImage{
       display: block;
     }
+  }
+  .header-slider-parent .header-slider .header-content p{
+    width: 100%;
   }
 }
 
