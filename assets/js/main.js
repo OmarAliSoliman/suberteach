@@ -1,7 +1,7 @@
 $(document).ready(function () {
   // choses-slider
 
-  // AOS.init();
+  AOS.init();
 
   
 
@@ -73,11 +73,11 @@ $(document).ready(function () {
     $(this).children("i").toggleClass("iMenue");
   });
 
-  // if($('.counter').length){
-  //   $('.counter').counterUp({
-  //     time: 1000
-  //   });
-  // }
+  if($('.counter').length){
+    $('.counter').counterUp({
+      time: 1000
+    });
+  }
 
 });
 

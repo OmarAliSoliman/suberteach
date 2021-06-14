@@ -68,6 +68,7 @@ button {
 }
 
 .splash {
+  display: none;
   position: fixed;
   right: 0;
   top: 0;
@@ -717,6 +718,7 @@ button {
 
 .number {
   margin-top: 95px;
+  // display: none;
   position: relative;
   padding-bottom: 30px;
   &::after {
