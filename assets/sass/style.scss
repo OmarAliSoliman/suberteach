@@ -1121,7 +1121,15 @@ button {
   .header-slider {
     .header-img {
       z-index: -1 !important;
-      opacity: .5;
+      opacity: 1;
+      position: unset !important;
+      transform: none !important;
+      margin-top: 10px;
+      img{
+        display: block;
+        margin: auto;
+      }
+
     }
     .header-content {
       text-align: center;
@@ -1140,8 +1148,8 @@ button {
     }
   }
   .header-slider-parent .header-slider .slider-item {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 30px;
   }
   .header-slider-parent .header-slider .header-content{
     width: 100%
@@ -1190,8 +1198,8 @@ button {
   }
 
   .header-slider-parent .header-slider .slider-item {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 50px;
+    // padding-bottom: 80px;
   }
   .number .number-content {
     text-align: center;
@@ -1247,6 +1255,9 @@ button {
 }
 
 @media (max-width: 376px) {
+  .number .number-content .thenumber{
+    font-size: 75px;
+  }
 }
 
 @media (max-width: 321px) {
