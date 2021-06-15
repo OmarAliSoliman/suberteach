@@ -41,6 +41,15 @@ $(document).ready(function () {
 
   }
 
+
+  if ($(".bg-sidenavOpen").length) {
+    $(".bg-sidenavOpen").on("click", function () {
+      $("#mySidenav").css("right", "-400px");
+      $(this).css("display", "none");
+      document.body.classList.remove("openMenuActive");
+    });
+  }
+
   $(window).scroll(() => {
     if ($(this).scrollTop() > 20) {
       $(".navbar").addClass("fixed-navbar");
