@@ -48,7 +48,7 @@ $(document).ready(function () {
       $(this).css("display", "none");
       document.body.classList.remove("openMenuActive");
     });
-  }
+  } 
 
   $(window).scroll(() => {
     if ($(this).scrollTop() > 20) {
